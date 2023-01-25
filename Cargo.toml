@@ -8,6 +8,6 @@ edition = "2018"
 
 [dependencies]
 minilp = "0.2.2"
-bevy = { version="0.5", default-features = false }
-bevy_rapier2d = { version = "0.9.0", default-features = false, features=["dim2"] }
+bevy = { version="*", default-features = false }
+bevy_rapier2d = { version = "*", default-features = false, features=["dim2"] }
 serde = "1.0.119"
